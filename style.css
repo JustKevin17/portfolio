@@ -85,7 +85,7 @@ h1 {
 }
 
 /*About*/
-.header1 {
+header {
     width: 100%;
     height: 11%;
     background-color: #22252c;
@@ -165,6 +165,10 @@ main h2 {
     text-decoration: none;
 }
 
+.about-flex a:hover {
+    color: #F6304C;
+}
+
 .about-flex {
     width: 100%;
     display: flex;
@@ -224,13 +228,25 @@ caption {
 table, th, td {
     border: 2px solid #C82D47;
     background-color: #22252c;
-    border-collapse: collapse;
     color: #f4f4f4;
     padding: 1%;
 }
 
 table {
     width: 49%;
+    border: 4px solid #C82D47;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+
+table tr a {
+    text-decoration: none;
+    color: #C82D47;
+}
+
+table a:hover {
+    color: #F6304C;
 }
 
 /*Contact*/
@@ -258,7 +274,6 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
 }
 
 textarea {
